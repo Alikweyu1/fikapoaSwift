@@ -6,18 +6,29 @@
 //
 
 import UIKit
-
+import IQKeyboardManagerSwift
+@available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-   
+   var window: UIWindow?
     static var menu_bool = true
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //check()
+        IQKeyboardManager.shared.enable = true
         return true
     }
-
+    func check(){
+        if UserDefaults.standard.value(forKey: "useremail") != nil{
+            let hv = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier:"LipaViewController" ) as! LipaViewController
+            let navVc = UINavigationController(rootViewController: hv)
+            let share = UIApplication.shared.delegate as? AppDelegate
+            share?.window?.rootViewController = navVc
+            share?.window?.makeKeyAndVisible()
+        }
+    }
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

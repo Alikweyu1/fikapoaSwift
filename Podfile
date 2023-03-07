@@ -6,5 +6,8 @@ target 'FikaPoaFraudDetection' do
   use_frameworks!
 
   # Pods for FikaPoaFraudDetection
-
+pod 'LZViewPager', '~> 1.2.5'
+pod 'Charts'
+pod 'SwiftMessages'
+#pod 'ChartsRealm'
 end
