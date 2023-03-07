@@ -13,9 +13,36 @@
 		4B024F2429B0CC1200439530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B024F2229B0CC1200439530 /* Main.storyboard */; };
 		4B024F2629B0CC1300439530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B024F2529B0CC1300439530 /* Assets.xcassets */; };
 		4B024F2929B0CC1300439530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B024F2729B0CC1300439530 /* LaunchScreen.storyboard */; };
+		4B1FC9EC29B0D4A60029E82C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1FC9EB29B0D4A60029E82C /* RegistrationViewController.swift */; };
+		4B1FC9EE29B0D4B30029E82C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1FC9ED29B0D4B30029E82C /* LoginViewController.swift */; };
+		4B74CEE829B3BD4A00EDB3E5 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74CEE729B3BD4A00EDB3E5 /* NetworkViewController.swift */; };
+		4B74CEEC29B3C05500EDB3E5 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74CEEB29B3C05500EDB3E5 /* NetworkView.swift */; };
+		4B74CEEE29B5B41700EDB3E5 /* FogetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74CEED29B5B41700EDB3E5 /* FogetPasswordViewController.swift */; };
+		4B74CEF029B5B8BB00EDB3E5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74CEEF29B5B8BB00EDB3E5 /* HomeViewController.swift */; };
+		4B74CEF229B5BD4B00EDB3E5 /* CreanNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B74CEF129B5BD4B00EDB3E5 /* CreanNewPasswordViewController.swift */; };
+		4B7B05EE29B11B7400A01B0E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B05ED29B11B7400A01B0E /* ContactViewController.swift */; };
+		4B7B05F129B11F8A00A01B0E /* textfieldCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7B05F029B11F8A00A01B0E /* textfieldCustomize.swift */; };
+		4B7B05F829B2135000A01B0E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7B05F729B2135000A01B0E /* Alamofire */; };
+		4B7B05FB29B2136F00A01B0E /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7B05FA29B2136F00A01B0E /* MBProgressHUD */; };
+		4B7B05FE29B2138600A01B0E /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7B05FD29B2138600A01B0E /* Reachability */; };
+		4B7B060129B213B100A01B0E /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4B7B060029B213B100A01B0E /* IQKeyboardManagerSwift */; };
+		4B99CE6829B716F500E4C405 /* Pods_FikaPoaFraudDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC546D55A29F20B2DEFF1A4 /* Pods_FikaPoaFraudDetection.framework */; };
+		4B99CE9329B7249200E4C405 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99CE9229B7249200E4C405 /* MenuViewController.swift */; };
+		4B99CE9529B724D500E4C405 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99CE9429B724D500E4C405 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4B99CE9029B7177200E4C405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B99CE7A29B7177200E4C405 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF59E0633837685C9C2D13F217374C4C;
+			remoteInfo = "Pods-FikaPoaFraudDetection";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4AC546D55A29F20B2DEFF1A4 /* Pods_FikaPoaFraudDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FikaPoaFraudDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B024F1929B0CC1100439530 /* FikaPoaFraudDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FikaPoaFraudDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B024F1C29B0CC1100439530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B024F1E29B0CC1200439530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,47 @@
 		4B024F2529B0CC1300439530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B024F2829B0CC1300439530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B024F2A29B0CC1300439530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1FC9EB29B0D4A60029E82C /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		4B1FC9ED29B0D4B30029E82C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B74CEE729B3BD4A00EDB3E5 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		4B74CEEB29B3C05500EDB3E5 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		4B74CEED29B5B41700EDB3E5 /* FogetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogetPasswordViewController.swift; sourceTree = "<group>"; };
+		4B74CEEF29B5B8BB00EDB3E5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B74CEF129B5BD4B00EDB3E5 /* CreanNewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreanNewPasswordViewController.swift; sourceTree = "<group>"; };
+		4B7B05ED29B11B7400A01B0E /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4B7B05F029B11F8A00A01B0E /* textfieldCustomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textfieldCustomize.swift; sourceTree = "<group>"; };
+		4B99CE6C29B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE6D29B7173900E4C405 /* Pods-FikaPoaFraudDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-FikaPoaFraudDetection-Info.plist"; sourceTree = "<group>"; };
+		4B99CE6E29B7173900E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-FikaPoaFraudDetection-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B99CE6F29B7173900E4C405 /* Pods-FikaPoaFraudDetection.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-FikaPoaFraudDetection.release.xcconfig"; sourceTree = "<group>"; };
+		4B99CE7029B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE7129B7173900E4C405 /* Pods-FikaPoaFraudDetection-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-FikaPoaFraudDetection-dummy.m"; sourceTree = "<group>"; };
+		4B99CE7229B7173900E4C405 /* Pods-FikaPoaFraudDetection.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-FikaPoaFraudDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		4B99CE7329B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE7429B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-FikaPoaFraudDetection-frameworks.sh"; sourceTree = "<group>"; };
+		4B99CE7529B7173900E4C405 /* Pods-FikaPoaFraudDetection-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-FikaPoaFraudDetection-umbrella.h"; sourceTree = "<group>"; };
+		4B99CE7629B7173900E4C405 /* Pods-FikaPoaFraudDetection.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FikaPoaFraudDetection.modulemap"; sourceTree = "<group>"; };
+		4B99CE7729B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE7829B7173900E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-FikaPoaFraudDetection-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B99CE7A29B7177200E4C405 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		4B99CE7F29B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE8029B7177200E4C405 /* Pods-FikaPoaFraudDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-FikaPoaFraudDetection-Info.plist"; sourceTree = "<group>"; };
+		4B99CE8129B7177200E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Pods-FikaPoaFraudDetection-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B99CE8229B7177200E4C405 /* Pods-FikaPoaFraudDetection.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-FikaPoaFraudDetection.release.xcconfig"; sourceTree = "<group>"; };
+		4B99CE8329B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE8429B7177200E4C405 /* Pods-FikaPoaFraudDetection-dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Pods-FikaPoaFraudDetection-dummy.m"; sourceTree = "<group>"; };
+		4B99CE8529B7177200E4C405 /* Pods-FikaPoaFraudDetection.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-FikaPoaFraudDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		4B99CE8629B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE8729B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "Pods-FikaPoaFraudDetection-frameworks.sh"; sourceTree = "<group>"; };
+		4B99CE8829B7177200E4C405 /* Pods-FikaPoaFraudDetection-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pods-FikaPoaFraudDetection-umbrella.h"; sourceTree = "<group>"; };
+		4B99CE8929B7177200E4C405 /* Pods-FikaPoaFraudDetection.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FikaPoaFraudDetection.modulemap"; sourceTree = "<group>"; };
+		4B99CE8A29B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = "Pods-FikaPoaFraudDetection-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		4B99CE8B29B7177200E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-FikaPoaFraudDetection-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B99CE8C29B7177200E4C405 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		4B99CE9229B7249200E4C405 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4B99CE9429B724D500E4C405 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C8C7BD55B5DF5FD345E70C4C /* Pods-FikaPoaFraudDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FikaPoaFraudDetection.release.xcconfig"; path = "Target Support Files/Pods-FikaPoaFraudDetection/Pods-FikaPoaFraudDetection.release.xcconfig"; sourceTree = "<group>"; };
+		CDBE41B506E3C936FC2D3BD2 /* Pods-FikaPoaFraudDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FikaPoaFraudDetection.debug.xcconfig"; path = "Target Support Files/Pods-FikaPoaFraudDetection/Pods-FikaPoaFraudDetection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +99,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B99CE6829B716F500E4C405 /* Pods_FikaPoaFraudDetection.framework in Frameworks */,
+				4B7B05FB29B2136F00A01B0E /* MBProgressHUD in Frameworks */,
+				4B7B060129B213B100A01B0E /* IQKeyboardManagerSwift in Frameworks */,
+				4B7B05FE29B2138600A01B0E /* Reachability in Frameworks */,
+				4B7B05F829B2135000A01B0E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +115,8 @@
 			children = (
 				4B024F1B29B0CC1100439530 /* FikaPoaFraudDetection */,
 				4B024F1A29B0CC1100439530 /* Products */,
+				A4FD64488367EE667E123A03 /* Pods */,
+				6D1682CE633F74B8DC827186 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +131,8 @@
 		4B024F1B29B0CC1100439530 /* FikaPoaFraudDetection */ = {
 			isa = PBXGroup;
 			children = (
+				4B74CEE629B3BD2300EDB3E5 /* network */,
+				4B1FC9EA29B0D4900029E82C /* pages */,
 				4B024F1C29B0CC1100439530 /* AppDelegate.swift */,
 				4B024F1E29B0CC1200439530 /* SceneDelegate.swift */,
 				4B024F2029B0CC1200439530 /* ViewController.swift */,
@@ -67,6 +144,141 @@
 			path = FikaPoaFraudDetection;
 			sourceTree = "<group>";
 		};
+		4B1FC9EA29B0D4900029E82C /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				4B7B05EF29B11F6500A01B0E /* textwedgets */,
+				4B1FC9EB29B0D4A60029E82C /* RegistrationViewController.swift */,
+				4B1FC9ED29B0D4B30029E82C /* LoginViewController.swift */,
+				4B7B05ED29B11B7400A01B0E /* ContactViewController.swift */,
+				4B74CEED29B5B41700EDB3E5 /* FogetPasswordViewController.swift */,
+				4B74CEEF29B5B8BB00EDB3E5 /* HomeViewController.swift */,
+				4B74CEF129B5BD4B00EDB3E5 /* CreanNewPasswordViewController.swift */,
+				4B99CE9229B7249200E4C405 /* MenuViewController.swift */,
+				4B99CE9429B724D500E4C405 /* MenuTableViewCell.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		4B74CEE629B3BD2300EDB3E5 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				4B74CEE729B3BD4A00EDB3E5 /* NetworkViewController.swift */,
+				4B74CEEB29B3C05500EDB3E5 /* NetworkView.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		4B7B05EF29B11F6500A01B0E /* textwedgets */ = {
+			isa = PBXGroup;
+			children = (
+				4B7B05F029B11F8A00A01B0E /* textfieldCustomize.swift */,
+			);
+			path = textwedgets;
+			sourceTree = "<group>";
+		};
+		4B99CE6B29B7173900E4C405 /* Pods-FikaPoaFraudDetection */ = {
+			isa = PBXGroup;
+			children = (
+				4B99CE6C29B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-output-files.xcfilelist */,
+				4B99CE6D29B7173900E4C405 /* Pods-FikaPoaFraudDetection-Info.plist */,
+				4B99CE6E29B7173900E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.markdown */,
+				4B99CE6F29B7173900E4C405 /* Pods-FikaPoaFraudDetection.release.xcconfig */,
+				4B99CE7029B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-input-files.xcfilelist */,
+				4B99CE7129B7173900E4C405 /* Pods-FikaPoaFraudDetection-dummy.m */,
+				4B99CE7229B7173900E4C405 /* Pods-FikaPoaFraudDetection.debug.xcconfig */,
+				4B99CE7329B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-output-files.xcfilelist */,
+				4B99CE7429B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks.sh */,
+				4B99CE7529B7173900E4C405 /* Pods-FikaPoaFraudDetection-umbrella.h */,
+				4B99CE7629B7173900E4C405 /* Pods-FikaPoaFraudDetection.modulemap */,
+				4B99CE7729B7173900E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-input-files.xcfilelist */,
+				4B99CE7829B7173900E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.plist */,
+			);
+			name = "Pods-FikaPoaFraudDetection";
+			path = "Pods/Target Support Files/Pods-FikaPoaFraudDetection";
+			sourceTree = "<group>";
+		};
+		4B99CE7929B7177200E4C405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B99CE7A29B7177200E4C405 /* Pods.xcodeproj */,
+				4B99CE7D29B7177200E4C405 /* Target Support Files */,
+				4B99CE8C29B7177200E4C405 /* Manifest.lock */,
+				4B99CE8D29B7177200E4C405 /* Local Podspecs */,
+				4B99CE8E29B7177200E4C405 /* Headers */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B99CE7B29B7177200E4C405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B99CE9129B7177200E4C405 /* Pods-FikaPoaFraudDetection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B99CE7D29B7177200E4C405 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B99CE7E29B7177200E4C405 /* Pods-FikaPoaFraudDetection */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		4B99CE7E29B7177200E4C405 /* Pods-FikaPoaFraudDetection */ = {
+			isa = PBXGroup;
+			children = (
+				4B99CE7F29B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-output-files.xcfilelist */,
+				4B99CE8029B7177200E4C405 /* Pods-FikaPoaFraudDetection-Info.plist */,
+				4B99CE8129B7177200E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.markdown */,
+				4B99CE8229B7177200E4C405 /* Pods-FikaPoaFraudDetection.release.xcconfig */,
+				4B99CE8329B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-input-files.xcfilelist */,
+				4B99CE8429B7177200E4C405 /* Pods-FikaPoaFraudDetection-dummy.m */,
+				4B99CE8529B7177200E4C405 /* Pods-FikaPoaFraudDetection.debug.xcconfig */,
+				4B99CE8629B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Debug-output-files.xcfilelist */,
+				4B99CE8729B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks.sh */,
+				4B99CE8829B7177200E4C405 /* Pods-FikaPoaFraudDetection-umbrella.h */,
+				4B99CE8929B7177200E4C405 /* Pods-FikaPoaFraudDetection.modulemap */,
+				4B99CE8A29B7177200E4C405 /* Pods-FikaPoaFraudDetection-frameworks-Release-input-files.xcfilelist */,
+				4B99CE8B29B7177200E4C405 /* Pods-FikaPoaFraudDetection-acknowledgements.plist */,
+			);
+			path = "Pods-FikaPoaFraudDetection";
+			sourceTree = "<group>";
+		};
+		4B99CE8D29B7177200E4C405 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		4B99CE8E29B7177200E4C405 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6D1682CE633F74B8DC827186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B99CE7929B7177200E4C405 /* Pods */,
+				4B99CE6B29B7173900E4C405 /* Pods-FikaPoaFraudDetection */,
+				4AC546D55A29F20B2DEFF1A4 /* Pods_FikaPoaFraudDetection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4FD64488367EE667E123A03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE41B506E3C936FC2D3BD2 /* Pods-FikaPoaFraudDetection.debug.xcconfig */,
+				C8C7BD55B5DF5FD345E70C4C /* Pods-FikaPoaFraudDetection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B024F2D29B0CC1300439530 /* Build configuration list for PBXNativeTarget "FikaPoaFraudDetection" */;
 			buildPhases = (
+				12FCAAF0A194B92E3A88D1BE /* [CP] Check Pods Manifest.lock */,
 				4B024F1529B0CC1100439530 /* Sources */,
 				4B024F1629B0CC1100439530 /* Frameworks */,
 				4B024F1729B0CC1100439530 /* Resources */,
@@ -83,6 +296,12 @@
 			dependencies = (
 			);
 			name = FikaPoaFraudDetection;
+			packageProductDependencies = (
+				4B7B05F729B2135000A01B0E /* Alamofire */,
+				4B7B05FA29B2136F00A01B0E /* MBProgressHUD */,
+				4B7B05FD29B2138600A01B0E /* Reachability */,
+				4B7B060029B213B100A01B0E /* IQKeyboardManagerSwift */,
+			);
 			productName = FikaPoaFraudDetection;
 			productReference = 4B024F1929B0CC1100439530 /* FikaPoaFraudDetection.app */;
 			productType = "com.apple.product-type.application";
@@ -111,14 +330,37 @@
 				Base,
 			);
 			mainGroup = 4B024F1029B0CC1100439530;
+			packageReferences = (
+				4B7B05F629B2135000A01B0E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4B7B05F929B2136F00A01B0E /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				4B7B05FC29B2138600A01B0E /* XCRemoteSwiftPackageReference "Reachability" */,
+				4B7B05FF29B213B100A01B0E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 4B024F1A29B0CC1100439530 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4B99CE7B29B7177200E4C405 /* Products */;
+					ProjectRef = 4B99CE7A29B7177200E4C405 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4B024F1829B0CC1100439530 /* FikaPoaFraudDetection */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4B99CE9129B7177200E4C405 /* Pods-FikaPoaFraudDetection */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-FikaPoaFraudDetection";
+			path = Pods_FikaPoaFraudDetection.framework;
+			remoteRef = 4B99CE9029B7177200E4C405 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4B024F1729B0CC1100439530 /* Resources */ = {
@@ -133,14 +375,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12FCAAF0A194B92E3A88D1BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FikaPoaFraudDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B024F1529B0CC1100439530 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B74CEF229B5BD4B00EDB3E5 /* CreanNewPasswordViewController.swift in Sources */,
+				4B7B05F129B11F8A00A01B0E /* textfieldCustomize.swift in Sources */,
+				4B99CE9529B724D500E4C405 /* MenuTableViewCell.swift in Sources */,
+				4B1FC9EE29B0D4B30029E82C /* LoginViewController.swift in Sources */,
 				4B024F2129B0CC1200439530 /* ViewController.swift in Sources */,
+				4B74CEEE29B5B41700EDB3E5 /* FogetPasswordViewController.swift in Sources */,
+				4B74CEEC29B3C05500EDB3E5 /* NetworkView.swift in Sources */,
 				4B024F1D29B0CC1100439530 /* AppDelegate.swift in Sources */,
+				4B99CE9329B7249200E4C405 /* MenuViewController.swift in Sources */,
 				4B024F1F29B0CC1200439530 /* SceneDelegate.swift in Sources */,
+				4B74CEF029B5B8BB00EDB3E5 /* HomeViewController.swift in Sources */,
+				4B1FC9EC29B0D4A60029E82C /* RegistrationViewController.swift in Sources */,
+				4B7B05EE29B11B7400A01B0E /* ContactViewController.swift in Sources */,
+				4B74CEE829B3BD4A00EDB3E5 /* NetworkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +560,13 @@
 		};
 		4B024F2E29B0CC1300439530 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBE41B506E3C936FC2D3BD2 /* Pods-FikaPoaFraudDetection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FikaPoaFraudDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +589,13 @@
 		};
 		4B024F2F29B0CC1300439530 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C7BD55B5DF5FD345E70C4C /* Pods-FikaPoaFraudDetection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FikaPoaFraudDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -356,6 +638,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B7B05F629B2135000A01B0E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4B7B05F929B2136F00A01B0E /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4B7B05FC29B2138600A01B0E /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4B7B05FF29B213B100A01B0E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B7B05F729B2135000A01B0E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B7B05F629B2135000A01B0E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4B7B05FA29B2136F00A01B0E /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B7B05F929B2136F00A01B0E /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		4B7B05FD29B2138600A01B0E /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B7B05FC29B2138600A01B0E /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+		4B7B060029B213B100A01B0E /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B7B05FF29B213B100A01B0E /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B024F1129B0CC1100439530 /* Project object */;
 }
