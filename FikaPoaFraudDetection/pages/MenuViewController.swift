@@ -9,6 +9,7 @@ import UIKit
 
 class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     @IBOutlet weak var menu_TableView: UITableView!
+  var menuHome   : MenuViewController!
     let title_array = ["Home","Deposit","Transaction","Analysis","Setting","Logout"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,19 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         cell.lable_title.text = title_array[indexPath.row]
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 1:
+            if let mainPage = storyboard?.instantiateViewController(withIdentifier: "DepositViewController") as? DepositViewController{
+                navigationController?.pushViewController(mainPage, animated: true)
+            }
+        case 2:
+            performSegue(withIdentifier: "transaction", sender: self)
+        default:
+            break
+        }
+    }
+
     
 
 }

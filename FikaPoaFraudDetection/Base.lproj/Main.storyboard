@@ -323,6 +323,44 @@
             </objects>
             <point key="canvasLocation" x="2944" y="-87"/>
         </scene>
+        <!--Deposit-->
+        <scene sceneID="jEo-QR-Vbj">
+            <objects>
+                <viewController storyboardIdentifier="DepositViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eio-tK-ck4" customClass="DepositViewController" customModule="FikaPoaFraudDetection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qnb-X3-Jza">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Pu-aN-SqY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Deposit" id="QeT-Yy-b0l">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.left" catalog="system" id="rPk-nt-srB">
+                            <connections>
+                                <action selector="backBtn_Tapped:" destination="eio-tK-ck4" id="ApG-Sk-fL9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBh-Hh-bMD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3823.6641221374043" y="-1513.3802816901409"/>
+        </scene>
+        <!--Transaction View Controller-->
+        <scene sceneID="xjA-QF-ax3">
+            <objects>
+                <viewController id="IqC-mX-ZVy" customClass="TransactionViewController" customModule="FikaPoaFraudDetection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dVQ-dV-GLb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="krz-gc-VKN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wgZ-Vu-LPy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6vH-0X-kjh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4559.5419847328239" y="-1503.5211267605634"/>
+        </scene>
         <!--FikaPoa Fraud Detection-->
         <scene sceneID="oPX-nd-0uf">
             <objects>
@@ -359,14 +397,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="menu_cell" id="u52-tp-NuB" customClass="MenuTableViewCell" customModule="FikaPoaFraudDetection" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="254" height="44.333332061767578"/>
+                                        <rect key="frame" x="0.0" y="50" width="254" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u52-tp-NuB" id="Lel-q3-g5H">
-                                            <rect key="frame" x="0.0" y="0.0" width="254" height="44.333332061767578"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="254" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNN-2r-gkT">
-                                                    <rect key="frame" x="9" y="11.000000000000002" width="245" height="21.666666666666671"/>
+                                                    <rect key="frame" x="9" y="11" width="245" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -398,6 +436,7 @@
                     </view>
                     <connections>
                         <outlet property="menu_TableView" destination="jcS-cC-NYE" id="UNw-85-Bzb"/>
+                        <segue destination="IqC-mX-ZVy" kind="show" identifier="transaction" id="QFf-Mu-Yje"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WaF-Vk-CuI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -826,8 +865,28 @@
             </objects>
             <point key="canvasLocation" x="2067.93893129771" y="-822.53521126760563"/>
         </scene>
+        <!--Deposit-->
+        <scene sceneID="aB0-kA-Tyy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3lx-kI-EB5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Deposit" id="QNy-QM-tYC"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vmg-Ge-CaN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eio-tK-ck4" kind="relationship" relationship="rootViewController" id="2HE-Is-xMg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXW-pI-9ZX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2896.9465648854962" y="-1513.3802816901409"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="chevron.left" catalog="system" width="97" height="128"/>
         <image name="ic_launcher-web" width="170.66667175292969" height="170.66667175292969"/>
         <image name="ic_launcher-web 1" width="170.66667175292969" height="170.66667175292969"/>
         <image name="menu_icon" width="10.666666984558105" height="10.666666984558105"/>

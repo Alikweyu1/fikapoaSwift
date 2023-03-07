@@ -29,6 +29,9 @@
 		4B99CE6829B716F500E4C405 /* Pods_FikaPoaFraudDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC546D55A29F20B2DEFF1A4 /* Pods_FikaPoaFraudDetection.framework */; };
 		4B99CE9329B7249200E4C405 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99CE9229B7249200E4C405 /* MenuViewController.swift */; };
 		4B99CE9529B724D500E4C405 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99CE9429B724D500E4C405 /* MenuTableViewCell.swift */; };
+		4BBB632029B74E0A002A8671 /* Home1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB631F29B74E0A002A8671 /* Home1ViewController.swift */; };
+		4BBB632229B75A78002A8671 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB632129B75A78002A8671 /* DepositViewController.swift */; };
+		4BBB632429B760D9002A8671 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB632329B760D9002A8671 /* TransactionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,9 @@
 		4B99CE8C29B7177200E4C405 /* Manifest.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
 		4B99CE9229B7249200E4C405 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		4B99CE9429B724D500E4C405 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		4BBB631F29B74E0A002A8671 /* Home1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1ViewController.swift; sourceTree = "<group>"; };
+		4BBB632129B75A78002A8671 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		4BBB632329B760D9002A8671 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		C8C7BD55B5DF5FD345E70C4C /* Pods-FikaPoaFraudDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FikaPoaFraudDetection.release.xcconfig"; path = "Target Support Files/Pods-FikaPoaFraudDetection/Pods-FikaPoaFraudDetection.release.xcconfig"; sourceTree = "<group>"; };
 		CDBE41B506E3C936FC2D3BD2 /* Pods-FikaPoaFraudDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FikaPoaFraudDetection.debug.xcconfig"; path = "Target Support Files/Pods-FikaPoaFraudDetection/Pods-FikaPoaFraudDetection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +162,9 @@
 				4B74CEF129B5BD4B00EDB3E5 /* CreanNewPasswordViewController.swift */,
 				4B99CE9229B7249200E4C405 /* MenuViewController.swift */,
 				4B99CE9429B724D500E4C405 /* MenuTableViewCell.swift */,
+				4BBB631F29B74E0A002A8671 /* Home1ViewController.swift */,
+				4BBB632129B75A78002A8671 /* DepositViewController.swift */,
+				4BBB632329B760D9002A8671 /* TransactionViewController.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -416,7 +425,10 @@
 				4B99CE9329B7249200E4C405 /* MenuViewController.swift in Sources */,
 				4B024F1F29B0CC1200439530 /* SceneDelegate.swift in Sources */,
 				4B74CEF029B5B8BB00EDB3E5 /* HomeViewController.swift in Sources */,
+				4BBB632029B74E0A002A8671 /* Home1ViewController.swift in Sources */,
 				4B1FC9EC29B0D4A60029E82C /* RegistrationViewController.swift in Sources */,
+				4BBB632229B75A78002A8671 /* DepositViewController.swift in Sources */,
+				4BBB632429B760D9002A8671 /* TransactionViewController.swift in Sources */,
 				4B7B05EE29B11B7400A01B0E /* ContactViewController.swift in Sources */,
 				4B74CEE829B3BD4A00EDB3E5 /* NetworkViewController.swift in Sources */,
 			);
