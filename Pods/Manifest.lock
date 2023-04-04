@@ -3,6 +3,7 @@ PODS:
     - Charts/Core (= 4.1.0)
   - Charts/Core (4.1.0):
     - SwiftAlgorithms (~> 1.0)
+  - Kingfisher (7.6.2)
   - LZViewPager (1.2.5):
     - SnapKit (~> 5.0.0)
   - SnapKit (5.0.1)
@@ -13,12 +14,14 @@ PODS:
 
 DEPENDENCIES:
   - Charts
+  - Kingfisher
   - LZViewPager (~> 1.2.5)
   - SwiftMessages
 
 SPEC REPOS:
   trunk:
     - Charts
+    - Kingfisher
     - LZViewPager
     - SnapKit
     - SwiftAlgorithms
@@ -26,11 +29,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Charts: 354f86803d11d9c35de280587fef50d1af063978
+  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
   LZViewPager: 89ddd98246d54b52bde14c8d91702f946d6f8893
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
 
-PODFILE CHECKSUM: 37e80994247ada3757de4fdce8c0377f90f9715a
+PODFILE CHECKSUM: d9c410d5dbe21bb58307da65975efd20df44f014
 
 COCOAPODS: 1.12.0

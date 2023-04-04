@@ -92,6 +92,13 @@
 			remoteGlobalIDString = 753DD909979478A0C1B33E0524504EF1;
 			remoteInfo = "SwiftMessages-SwiftMessages";
 		};
+		4B948C2229DBE89B00389392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B99CE7A29B7177200E4C405 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3F44C782D64D7EB20B61CE3844EBFAD;
+			remoteInfo = Kingfisher;
+		};
 		4B99CE9029B7177200E4C405 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4B99CE7A29B7177200E4C405 /* Pods.xcodeproj */;
@@ -383,7 +390,8 @@
 		4B99CE7B29B7177200E4C405 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BA26A6B29CD73E100D2888B /* Charts.framework */,
+				4BA26A6B29CD73E100D2888B /* Charts */,
+				4B948C2329DBE89B00389392 /* Kingfisher */,
 				4B3C03ED29C1EDB700608550 /* LZViewPager */,
 				4B99CE9129B7177200E4C405 /* Pods-FikaPoaFraudDetection */,
 				4B3C03EF29C1EDB700608550 /* SnapKit */,
@@ -619,6 +627,14 @@
 			remoteRef = 4B8ED7D929D4814800D25BE6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		4B948C2329DBE89B00389392 /* Kingfisher */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Kingfisher;
+			path = Kingfisher.framework;
+			remoteRef = 4B948C2229DBE89B00389392 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4B99CE9129B7177200E4C405 /* Pods-FikaPoaFraudDetection */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -627,9 +643,10 @@
 			remoteRef = 4B99CE9029B7177200E4C405 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4BA26A6B29CD73E100D2888B /* Charts.framework */ = {
+		4BA26A6B29CD73E100D2888B /* Charts */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = Charts;
 			path = Charts.framework;
 			remoteRef = 4BA26A6A29CD73E100D2888B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;

@@ -9,5 +9,6 @@ target 'FikaPoaFraudDetection' do
 pod 'LZViewPager', '~> 1.2.5'
 pod 'Charts'
 pod 'SwiftMessages'
+pod 'Kingfisher'
 #pod 'ChartsRealm'
 end
